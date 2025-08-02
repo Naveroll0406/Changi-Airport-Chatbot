@@ -39,9 +39,9 @@ python scrapper.py
 python embedder.py
 ```
 ### 3. Start Ollama (LLM Backend)
-```bash
-🖥️ Open Command Prompt (CMD) and run the following:
 
+🖥️ Open Command Prompt (CMD) and run the following:
+```bash
 ollama pull mistral   # Pull the model if not already downloaded  
 ollama run mistral    # Start the LLM server  
 
