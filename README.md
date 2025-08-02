@@ -47,7 +47,7 @@ ollama run mistral    # Start the LLM server
 
 
 ```
-### 3. Run the Chatbot (Streamlit UI)
+### 4. Run the Chatbot (Streamlit UI)
 ```bash
 streamlit run rag_chat_ui.py
 ```
