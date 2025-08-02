@@ -1,0 +1,21 @@
+# Core Dependencies
+torch
+streamlit
+chromadb
+langchain>=0.1.14
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-ollama
+beautifulsoup4
+selenium
+
+# Hugging Face Embeddings
+transformers
+sentence-transformers
+
+# WebDriver Manager (for handling ChromeDriver setup)
+webdriver-manager
+
+# Optional but useful
+tqdm
