@@ -20,7 +20,6 @@ An AI-powered chatbot that answers user queries about **Changi Airport** and **J
 ## 🧠 Features
 
 - 🔍 **Retrieval-based answers** grounded in scraped airport content
-- 📖 **Chat history memory** for follow-up questions
 - 🧾 **Metadata filtering** (terminals, services, audience types)
 - 💬 **Streaming responses** via LangChain
 - 🖼️ **Streamlit UI** for easy interaction
@@ -39,7 +38,15 @@ python scrapper.py
 ```bash
 python embedder.py
 ```
+### 3. Start Ollama (LLM Backend)
+```bash
+🖥️ Open Command Prompt (CMD) and run the following:
 
+ollama pull mistral   # Pull the model if not already downloaded  
+ollama run mistral    # Start the LLM server  
+
+
+```
 ### 3. Run the Chatbot (Streamlit UI)
 ```bash
 streamlit run rag_chat_ui.py
